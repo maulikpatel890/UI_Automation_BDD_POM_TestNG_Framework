@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestNGReport" class="navigator-link">
+              <span class="suite-name border-failed">TestNGReport</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestNGReport" class="navigator-link ">
+                    <span>D:\Automation_Frameworks\Web_UI_Automation_BDD_POM_Framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestNGReport" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestNGReport" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestNGReport" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestNGReport" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestNGReport" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestNGReport" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestNGReport" class="hide-methods failed suite-TestNGReport"> (hide)</a> <!-- hide-methods failed suite-TestNGReport -->
+                      <a href="#" panel-name="suite-TestNGReport" class="show-methods failed suite-TestNGReport"> (show)</a> <!-- show-methods failed suite-TestNGReport -->
+                    </span>
+                    <div class="method-list-content failed suite-TestNGReport">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGReport" title="com.google.testRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;2 - Failure Scenario - Verify user is able to navigate to sign in page.&quot;, &quot;As a user, I want to sea...)">runScenario("2 - Failure Scenario - Verify user is able to navigate to sign in page.", "As a user, I want to sea...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestNGReport -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNGReport" class="hide-methods passed suite-TestNGReport"> (hide)</a> <!-- hide-methods passed suite-TestNGReport -->
+                      <a href="#" panel-name="suite-TestNGReport" class="show-methods passed suite-TestNGReport"> (show)</a> <!-- show-methods passed suite-TestNGReport -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNGReport">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGReport" title="com.google.testRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;4 Verify user is able to search current UTC time in google search.&quot;, &quot;As a user, I want to search c...)">runScenario("4 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGReport" title="com.google.testRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;3 Verify user is able to search current UTC time in google search.&quot;, &quot;As a user, I want to search c...)">runScenario("3 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGReport" title="com.google.testRunners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;1 Verify user is able to search current UTC time in google search.&quot;, &quot;As a user, I want to search c...)">runScenario("1 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNGReport -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNGReport" class="panel TestNGReport">
+          <div class="suite-TestNGReport-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.google.testRunners.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;2 - Failure Scenario - Verify user is able to navigate to sign in page.&quot;, &quot;As a user, I want to sea...)">
+                  </a> <!-- runScenario("2 - Failure Scenario - Verify user is able to navigate to sign in page.", "As a user, I want to sea...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("2 - Failure Scenario - Verify user is able to navigate to sign in page.","As a user, I want to search current UTC time in google search engine.")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [What is current time?] but found [What is today&apos;s date?]
+	at com.google.steps.googlesearch.GoogleSearchSteps.verify_incorrect_search_text_failure_assertion(GoogleSearchSteps.java:52)
+	at ✽.Verify User should see incorrect search text in the search box - Failure Assertion(file:///D:/Automation_Frameworks/Web_UI_Automation_BDD_POM_Framework/src/test/resources/features/googlesearch/GoogleSearch.feature:12)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGReport-class-failed -->
+          <div class="suite-TestNGReport-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.google.testRunners.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;4 Verify user is able to search current UTC time in google search.&quot;, &quot;As a user, I want to search c...)">
+                  </a> <!-- runScenario("4 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("4 Verify user is able to search current UTC time in google search.","As a user, I want to search current UTC time in google search engine.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;3 Verify user is able to search current UTC time in google search.&quot;, &quot;As a user, I want to search c...)">
+                  </a> <!-- runScenario("3 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("3 Verify user is able to search current UTC time in google search.","As a user, I want to search current UTC time in google search engine.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;1 Verify user is able to search current UTC time in google search.&quot;, &quot;As a user, I want to search c...)">
+                  </a> <!-- runScenario("1 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("1 Verify user is able to search current UTC time in google search.","As a user, I want to search current UTC time in google search engine.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGReport-class-passed -->
+        </div> <!-- panel TestNGReport -->
+        <div panel-name="test-xml-TestNGReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation_Frameworks\Web_UI_Automation_BDD_POM_Framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;methods&quot; data-provider-thread-count=&quot;2&quot; name=&quot;TestNGReport&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;WebAppTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.google.testRunners.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WebAppTests --&gt;
+&lt;/suite&gt; &lt;!-- TestNGReport --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNGReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNGReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WebAppTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNGReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNGReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNGReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNGReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNGReport');
+function tableData_TestNGReport() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.google.testRunners.TestRunner')
+data.setCell(0, 3, 53569);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.google.testRunners.TestRunner')
+data.setCell(1, 3, 52961);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.google.testRunners.TestRunner')
+data.setCell(2, 3, 24956);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.google.testRunners.TestRunner')
+data.setCell(3, 3, 22936);
+window.suiteTableData['TestNGReport']= { tableData: data, tableDiv: 'times-div-TestNGReport'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-TestNGReport">
+              </div> <!-- times-div-TestNGReport -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNGReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNGReport</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNGReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNGReport" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.testRunners.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@568ff82)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("2 - Failure Scenario - Verify user is able to navigate to sign in page.", "As a user, I want to sea...)</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("1 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...)</span>
+                <span class="method-start">388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("3 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...)</span>
+                <span class="method-start">53349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("4 Verify user is able to search current UTC time in google search.", "As a user, I want to search c...)</span>
+                <span class="method-start">53957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">78913 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79412 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

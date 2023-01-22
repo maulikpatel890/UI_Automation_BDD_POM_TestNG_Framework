@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" data-provider-thread-count="2" name="Failed suite [TestNGReport]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="methods" name="WebAppTests(failed)" verbose="0">
+    <classes>
+      <class name="com.google.testRunners.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.google.testRunners.TestRunner -->
+    </classes>
+  </test> <!-- WebAppTests(failed) -->
+</suite> <!-- Failed suite [TestNGReport] -->
